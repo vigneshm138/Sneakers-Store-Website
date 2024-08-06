@@ -7,10 +7,10 @@ Welcome to the Sneaker Store website, where you can explore, select, and purchas
 ## Key Features
 
 - **Home Page**: Home Page.
--**Sneaker List**: A comprehensive list of available sneakers .
--**Sneaker Details**: Detailed view of a selected sneaker including additional images and specifications.
--**Cart**: The cart view where users can review and modify their selected sneakers before proceeding to checkout.
--**Login and Signup**: User authentication pages for logging in and creating new accounts.
+- **Sneaker List**: A comprehensive list of available sneakers .
+- **Sneaker Details**: Detailed view of a selected sneaker including additional images and specifications.
+- **Cart**: The cart view where users can review and modify their selected sneakers before proceeding to checkout.
+- **Login and Signup**: User authentication pages for logging in and creating new accounts.
 
 
 ## Project Screenshots

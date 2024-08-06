@@ -1,0 +1,92 @@
+.signUp {
+  max-width: 1100px;
+  margin: 3% auto;
+  text-align: center;
+  background-color: #F2F0EA;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.signUp form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+  border-radius: 4px;
+  width: fit-content;
+  margin: auto;
+}
+
+.signUp form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.555);
+  padding-left: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.signUp form div label {
+    align-self: flex-start;
+    font-weight: 700;
+}
+
+.signUp form div {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUp form button {
+  text-transform: uppercase;
+  padding: 10px ;
+  border-radius: 4px;
+  border: none;
+  font-size: 13px;
+  background-color:black;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.sucessMes{
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    padding: 5px 13px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: fixed;
+    right: 30px;
+    top: 50px;
+}
+.sucessMes .tickIcon{
+    font-size: 22px;
+}
+.loginNav{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+}
+.loginNav button{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+}

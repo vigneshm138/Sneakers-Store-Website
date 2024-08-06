@@ -1,0 +1,142 @@
+.proDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.proDisplay_left {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.proDisplay_mainImg {
+  width: 100%;
+  background-color: #a4a4a43b;
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+.proDisplay_mainImg img {
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+.proDisplay_subImgs {
+  display: flex;
+  justify-content: space-between;
+}
+.proDisplay_subImgs img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #a4a4a43b;
+  cursor: pointer;
+}
+
+/* --------------------- */
+.proDisplay_right {
+  max-width: 370px;
+  display: flex;
+  gap: 15px;
+  padding: 0 5px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.proDisplay_right .proDisplay_proName {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.proDisplayRatings .star {
+  color: rgba(255, 255, 0, 0.877);
+  font-size: 13px;
+}
+.proDisplayRatings {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.proDisplayRatings span {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.proDisplay_amount {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 600;
+}
+.proDisplay_colors img {
+  width: 40px;
+  background-color: #a4a4a43b;
+  padding: 12px 6px;
+  border-radius: 5px;
+}
+.proDisplay_colors div {
+  display: flex;
+  gap: 10px;
+}
+.proDisplay_colors p,
+.proDisplay_sizesDiv p {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.proDisplay_sizes {
+  display: flex;
+}
+.proDisplay_sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.proDisplay_sizes .shoe_size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a4a4a43b;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.proDisplay_cart {
+  display: flex;
+  gap: 10px;
+}
+.proDisplay_cart button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.proDisplay_cart button:nth-child(1) {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.proDisplay_cart .proDisplay_icons {
+  font-size: 20px;
+}
+
+.proDisplay .proDisplay_cart{
+  margin-top: 10px;
+}
